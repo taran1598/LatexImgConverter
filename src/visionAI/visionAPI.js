@@ -7,12 +7,8 @@ const client = new vision.ImageAnnotatorClient({
 export class visionAPI {
 
     constructor() {
-        // this.add(x,y);
+        // here so we can construct the object
     }
-    add(x,y) {
-        return x + y;
-    }
-
     /**
      *
      * @param fileName: location of the file

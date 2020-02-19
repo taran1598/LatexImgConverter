@@ -1,5 +1,5 @@
 import {describe} from "mocha";
-import {latexFacade} from "../src/controller/LatexFacade";
+import {latexFacade} from "../src/controller/latexFacade";
 import * as chai from 'chai'
 let expect = chai.expect;
 let assert = chai.assert;

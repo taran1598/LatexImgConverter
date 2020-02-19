@@ -2,11 +2,11 @@
   "name": "latex",
   "version": "1.0.0",
   "description": "",
-  "main": "src/controller/LatexFacade.js",
+  "main": "src/controller/latexFacade.js",
   "scripts": {
-    "server": "nodemon --exec babel-node src/visionAI/VisionAPI.js",
-    "test": "mocha --require @babel/register",
-    "start": "babel-node src/controller/LatexFacade.js"
+    "server": "nodemon --exec babel-node src/app.js",
+    "test": "mocha --require @babel/register || true",
+    "start": "nodemon --exec babel-node src/app.js"
   },
   "keywords": [],
   "author": "",
