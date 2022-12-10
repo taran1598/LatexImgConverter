@@ -16,7 +16,7 @@
     "@babel/runtime": "^7.8.4",
     "@google-cloud/vision": "^0.22.1",
     "esm": "^3.2.25",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "nodemon": "^1.18.6"
   },
   "devDependencies": {
